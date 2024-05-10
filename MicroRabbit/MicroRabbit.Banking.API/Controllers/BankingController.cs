@@ -16,6 +16,7 @@ namespace MicroRabbit.Banking.API.Controllers
         {
             _accountService = accountService;
         }
+
         [HttpGet]
         public ActionResult<IEnumerable<Account>>Get()
         {
